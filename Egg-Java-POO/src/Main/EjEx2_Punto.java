@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pooej2extra;
+
+import Entidades.Punto;
+
+/**
+ *
+ * @author danip
+ */
+public class EjEx2_Punto {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+        Punto d = new Punto();
+
+        d.crearPuntos();
+        d.calcularDistancia();
+
+       
+    }
+}
